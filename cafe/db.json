@@ -1,0 +1,174 @@
+{
+  "board": [
+    {
+      "id": 1,
+      "board_board": "board0",
+      "board_title": "안녕하세요, 운영자 아아존입니다.",
+      "board_content": "행복하세요",
+      "board_author": "아아존",
+      "board_date": "24-01-21",
+      "_comment": "//시간은 글을 눌러야 볼 수 있게.",
+      "board_watch": 127520,
+      "board_recommend": 1118
+    },
+    {
+      "id": 2,
+      "board_board": "board1",
+      "board_title": "테스트입니다",
+      "board_content": "진짜예요.",
+      "board_author": "테스트",
+      "board_date": "24-01-21",
+      "board_watch": 1000,
+      "board_recommen": 10
+    },
+    {
+      "id": 3,
+      "board_board": "board4",
+      "board_title": "[1일1글] 괴담 동아리여, 영원하라",
+      "board_content": "무한한 재미가 가득차고, 전후완벽하다!",
+      "board_author": "오직선아",
+      "board_date": "24-01-21",
+      "board_watch": 13,
+      "board_recommend": 1
+    },
+    {
+      "board_board": "board1",
+      "board_title": "예삐",
+      "board_content": "여긴 모하는 곳인가요?",
+      "id": 4
+    },
+    {
+      "board_board": "board1",
+      "board_title": "ㅇ",
+      "board_content": "ㅇㅇ",
+      "board_watch": 0,
+      "board_recommend": 0,
+      "id": 5
+    },
+    {
+      "board_board": "board4",
+      "board_title": "오직재미",
+      "board_content": "연재해",
+      "board_author": "기원",
+      "board_date": "24-4-4",
+      "board_watch": 0,
+      "board_recommend": 0,
+      "id": 7
+    },
+    {
+      "board_board": "board1",
+      "board_title": "후우.. 마지막 테스트닷",
+      "board_content": "ㄱㅈㅇㅇㅇㅇ",
+      "board_author": "",
+      "board_date": "24-4-4",
+      "board_watch": 0,
+      "board_recommend": 0,
+      "id": 8
+    },
+    {
+      "board_board": "board1",
+      "board_title": "ㄴㅁㄴㄴ",
+      "board_content": "ㄴㅇㅇㄴ",
+      "board_author": "",
+      "board_date": "24-04-04",
+      "board_watch": 0,
+      "board_recommend": 0,
+      "id": 9
+    },
+    {
+      "board_board": "board1",
+      "board_title": "ㅋㅋ",
+      "board_content": "ㅋㅋㅋㅋ",
+      "board_author": "",
+      "board_date": "24-04-04",
+      "board_watch": 0,
+      "board_recommend": 0,
+      "id": 10
+    },
+    {
+      "board_board": "board1",
+      "board_title": "종말론 궁굼한 거",
+      "board_content": "그때 인과율 몇 오름?",
+      "board_author": "ㅇㅇ",
+      "board_date": "24-04-05",
+      "board_watch": 0,
+      "board_recommend": 0,
+      "id": 11
+    },
+    {
+      "board_board": "board1",
+      "board_title": "번호테스트",
+      "board_content": "ㄱㄱ",
+      "board_author": "테스트",
+      "board_date": "24-04-06",
+      "board_watch": 0,
+      "board_recommend": 0,
+      "id": 12
+    },
+    {
+      "board_board": "board1",
+      "board_title": "※ 스포일러 포함을 꼭 체크하십시오 ※",
+      "board_content": "작은 괴담인줄 알았는데 작중 중요한 단서와 거대한 이야기가 내포된 괴담 3개, 아니 4개, 아니 5개가 있다.\n\n포린세스 막내 다솜이에게서 의뢰가 들어와 부원들과 같이 영상을 돌리며 문제를 해결하는 것 같았던 '영상괴담'\n\n낙성고 전체가 데스게임이 된 무대에서 가장 완벽한 버전의 이준이 활약하는 이야기처럼 보였던 '귀신게임'\n\n낙성고 운동장에 괴담 동아리가 모여 그냥 각자 능력을 시험할 줄 알았던 '능력에 관한 기묘한 이야기'\n\n클로버 백화점에서 벌어진 3건의 사건 파일을 파헤치는 진희×박강운 케미가 돋보인 편이었던 '사회실험' & '몰래카메라' 괴담\n\n오직재미의 새로운 연출과 함께 독자적으로 조력자 해커의 의뢰로 괴담을 해결하는 것처럼 보였던 '방탈출게임'\n\n디스맨이랑 도플준 에피소드는 아무도 안 죽었기에 일단 제외한다.\n\n",
+      "board_author": "아아존",
+      "board_date": "24-04-06",
+      "board_watch": 0,
+      "board_recommend": 0,
+      "comment": [
+        {
+          "comment_author": "아아존",
+          "comment_date": "24-04-07",
+          "comment_content": "dd",
+          "id": 1
+        },
+        {
+          "comment_author": "아아존",
+          "comment_date": "24-04-07",
+          "comment_content": "dd",
+          "id": 2
+        }
+      ],
+      "id": 13
+    }
+  ],
+  "user": [
+    {
+      "nickname": "아아존",
+      "password": "025712",
+      "writing": [
+        1,13
+      ],
+      "id": 1
+    },
+    {
+      "nickname": "gourn",
+      "password": "1118",
+      "writing": [],
+      "id": 2
+    },
+    {
+      "nickname": "오직선아",
+      "password": "10313",
+      "writing": [
+        3
+      ],
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

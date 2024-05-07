@@ -1,0 +1,26 @@
+[
+    {
+        "border_number": 1,
+        "border_title": "안녕하세요, 운영자 아아존입니다.",
+        "border_author": "아아존",
+        "border_date": "24-01-21",  "_comment": "//시간은 글을 눌러야 볼 수 있게.",
+        "border_watch": 127520,
+        "border_recommend": 1118
+    },
+    {
+        "border_number": 2,
+        "border_title": "테스트입니다",
+        "border_author": "테스트",
+        "border_date": "24-01-21",
+        "border_watch": 1000,
+        "border_recommend": 10
+    },
+    {
+        "border_number": 3,
+        "border_title": "[1일1글] 괴담 동아리여, 영원하라",
+        "border_author": "오직선아",
+        "border_date": "24-01-21",
+        "border_watch": 13,
+        "border_recommend": 1
+    }
+]

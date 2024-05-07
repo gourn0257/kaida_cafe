@@ -1,0 +1,348 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  /* font-family: ; */
+  color: #fff;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  /* align-items: center; */
+  background: linear-gradient(90deg, #1e1e1e, #333333, #1e1e1e);
+  text-align: center;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+}
+table {
+  border-collapse: collapse;
+}
+select {
+  width: 100%;
+}
+textarea {
+  resize: none;
+  border: 0;
+  outline-width: 0;
+  background-color: #333333;
+}
+select {
+  color: black;
+}
+input[type="submit"], input[type="reset"] {
+  font-family: monospace;
+  font-size:large;
+  cursor: pointer;
+  margin: 5px 10px;
+  padding: 3px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #333333;
+}
+
+
+
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  /* width: 200px; */
+  height: auto;
+  color: #f0f0f0;
+  background-color: #303030;
+}
+nav a {
+  padding: 5px 10px;
+}
+
+#login {
+  position: absolute;
+  margin-right: 100px;
+  padding: 1px 8px;
+  padding-bottom: 6px;
+  right: 35px;
+  background-color: #303030;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#logo {
+  /* display: inline-block; */
+  cursor: pointer;
+
+  margin: 0 auto;
+  /* width: 600px; */
+  width: 1000px;
+
+  /* height: 305px; */
+  /* height: 229px; */
+  height: 305px;
+  
+  border: 4px solid #eeeeee;
+  /* border-bottom: 2px solid #eeeeee; */
+}
+#logo img {
+  /* width: 33.3%; */
+  /* width: 25%; */
+  width: 20%;
+}
+
+#loading {
+  /* position: absolute; */
+  background-color: #333333;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+#loading>div {
+  width: 300px;
+  height: 300px;
+  /* margin: 50px; */
+  margin: 100px auto;
+  font-size: 30px;
+}
+
+
+main {
+  display: inline-block;
+  margin: 50px auto;
+}
+#main {
+  margin: 0 auto;
+  width: 1000px;
+  /* background-color: tomato; */
+  background-color: #eeeeee;
+  border: 4px solid #eeeeee;
+  border-top: none;
+}
+
+#btn-write {
+  display: inline;
+  background-color: skyblue;
+}
+
+/* 게시판 */
+#board {
+  background-color: #333333;
+}
+#board-table {
+  /* width: 100%; */
+  line-height: 33px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#board-table tr:last-child td {
+  border-bottom: 0;
+}
+#board-table th {
+  font-weight: normal;
+  font-size: 0.9%;
+  /* border: 1px solid black; */
+  border-bottom: 2px solid rgb(255, 99, 71);
+}
+#board-table td {
+  font-size: 85%;
+  /* border: 1px solid black; */
+  border: 1px solid #777777;
+  border-left: 0;
+  border-right: 0;
+  /* border-right: 7px solid rgba(155, 155, 155, 0.4); */
+  /* border-left: 7px solid rgba(155, 155, 155, 0.4); */
+}
+/* 번호 */
+#board-table td:nth-child(1) {
+  /* width: 6%; */
+  font-size: 0.5%;
+  width: 45px;
+  border-left: 0;
+}
+/* 제목 */
+#board-table td:nth-child(2) {
+  /* width: 60%; */
+  width: 480px;
+  padding: 0 10px;
+  text-align: left;
+}
+/* 글쓴이 */
+#board-table td:nth-child(3) {
+  /* width: 15%; */
+  width: 140px;
+}
+/* 날짜 */
+#board-table td:nth-child(4) {
+  /* width: 6%; */
+  width: 60px;
+  font-size: 0.5%;
+  color: #999999;
+}
+/* 조회 */
+#board-table td:nth-child(5) {
+  /* width: 6%; */
+  width: 60px;
+  font-size: 0.5%;
+  color: #999999;
+}
+/* 추천 */
+#board-table td:nth-child(6) {
+  /* width: 6%; */
+  width: 60px;
+  font-size: 0.5%;
+  color: #999999;
+  border-right: 0;
+}
+/* 페이지 수 */
+#page_num a{
+  margin: 0 5px;
+}
+/* 글 */
+#writing {
+  margin-bottom: 10px;
+  text-align: left;
+}
+#writing-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: #777777;
+  border-bottom: #777777;
+}
+#writing-title h1 {
+  display: inline-block;
+}
+/* #writing-inf {
+  display: inline-flex;
+  justify-content: space-between;
+} */
+#writing-content {
+  padding: 0 10px;
+  padding-top: 10px;
+  background-color: #333333;
+}
+#writing-recommend {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 50px;
+  width: 50px;
+  background-color: #bbbbbb;
+  border: 0;
+  border-radius: 15px;
+}
+#comment {
+  text-align: left;
+}
+#comment h2 {
+  background-color: purple;
+}
+#comment article {
+  /* display: inline-block; */
+  text-align: center;
+  width: 700px;
+}
+#comment article>div {
+  outline: 10px double black;
+}
+#comment-title {
+  text-align: left;
+  background-color: #aaaaaa;
+}
+#comment-content {
+  text-align: left;
+  background-color: #666666;
+}
+
+/* 글쓰기 */
+#board-user{
+  padding-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+#board-user input {
+  display: inline-block;
+  margin: 0;
+  padding: 7px;
+  font-family: monospace;
+  /* 클릭 이벤트 시 나타나는 선을 없앰 */
+  /**/resize: none;                  /**/
+  /**/outline-width: 0;              /**/
+  /* 클릭 이벤트 시 나타나는 선을 없앰 */
+  background-color: #333333;
+  border: 1px solid black;
+}
+#board-user input[type="text"] {
+  margin-right: 20px;
+}
+/* #board_user input[type="password"] {
+} */
+#board-select {
+  font-family: monospace;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #bbbbbb;
+}
+#board-select option {
+  color: #000;
+  background-color: white;
+}
+.board-textarea {
+  display: flex;
+  /* background-color: violet; */
+}
+.board-textarea textarea {
+  padding: 7px;
+  /* color: #000000; */
+  border: 1px solid black;
+  border-radius: 3px;
+}
+#board-title textarea{
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+#board-content {
+  margin-bottom: 10px;
+}
+/* #board-content textarea::placeholder{
+  font-size: 3600%;
+  color: #bbbbbb;
+} */
+
+#user-profile {
+  line-height: 150px;
+}
+#user-profile-img {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background-color: #bbbbbb;
+  border-radius: 60px;
+}
+#user-profile h1 {
+  display: inline-block;
+}
+
+
+
+footer {
+  width: 1008px;
+  border-top: 2px solid #eeeeee;
+}
+footer p {
+  font-size: 0.82em;
+}
+
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+.origin-a {
+  color: #90a0ff;
+  text-decoration: underline;
+}
